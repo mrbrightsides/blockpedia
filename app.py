@@ -129,8 +129,7 @@ def embed_iframe(src, hide_top_px=100, hide_bottom_px=0, height=800):
     </div>
     """, height=height + hide_top_px + hide_bottom_px)
 
-# URL Ohara
 iframe_url = "https://blockpedia.elpeef.com/"
 
 # Panggil fungsi
-embed_iframe(iframe_url, hide_top_px=110, hide_bottom_px = 25, height=800)
+embed_iframe(iframe_url, hide_top_px=0, hide_bottom_px = -105, height=800)
